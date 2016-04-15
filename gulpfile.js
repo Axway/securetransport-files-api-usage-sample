@@ -3,8 +3,6 @@ var path = require('path');
 var gulp = require('gulp');
 var eslint = require('gulp-eslint');
 var excludeGitignore = require('gulp-exclude-gitignore');
-var nsp = require('gulp-nsp');
-var plumber = require('gulp-plumber');
 var babel = require('gulp-babel');
 var del = require('del');
 
